@@ -1,9 +1,9 @@
 export const config = {
-  appID: '102550493', // 申请机器人时获取到的机器人 BotAppID
-  token: 'Uv0d7piSdnSAxV99JRNOjsZvHr8Q6Peb', // 申请机器人时获取到的机器人 BotToken
+  appID: 'BotAppID', // 申请机器人时获取到的机器人 BotAppID
+  token: 'BotToken', // 申请机器人时获取到的机器人 BotToken
   intents: ['PUBLIC_GUILD_MESSAGES', 'GUILD_MEMBERS'], // 事件订阅,用于开启可接收的消息类型 https://bot.q.qq.com/wiki/develop/api/gateway/intents.html
   sandbox: true, // 沙箱支持，可选，默认false. v2.7.0+
-  sk: 'HPXfnv4DMVenw6GQaku4FQbmx8JVht5H'
+  sk: ''
 }
 
 export const Opcode  = {
